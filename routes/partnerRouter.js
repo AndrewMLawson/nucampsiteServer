@@ -41,7 +41,7 @@ partnerRouter.route('/:partnerId')
 })
 .put((req, res) => {
     res.statusCode = 200;
-    res.end(`Updating the partner: 1 Will update the partner: ${req.body.name} with ${req.body.description}`;
+    res.end(`Updating the partner: 1 Will update the partner: ${req.body.name} with ${req.body.description}`);
 })
 .delete((req, res) => {
     res.end('Deleting all partners');
